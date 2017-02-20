@@ -30,7 +30,8 @@ public class GrammarScript : MonoBehaviour {
 
     void OnGrammerRecognized(PhraseRecognizedEventArgs args)
     {
-        // write your own logic
+         SemanticMeaning[] meanings = args.semanticMeanings;
+    // do something
     }
 }
 
